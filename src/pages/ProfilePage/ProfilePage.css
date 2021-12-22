@@ -1,0 +1,16 @@
+.image-profile {
+    width: 150px;
+    
+
+
+}
+
+
+.image-profile img {
+    border-radius: 50%;
+}
+
+.profile {
+    
+    min-height:71vh ;
+}

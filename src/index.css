@@ -1,0 +1,205 @@
+/* src/index.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  list-style: none;
+  color: black;
+}
+
+button,
+select {
+  padding: 5px 10px;
+  min-width: 50px;
+  margin: 5px;
+  font-size: 18px;
+  height: 40px;
+}
+
+label {
+  width: 200px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  height: 35px;
+}
+
+nav {
+  background:rgb(4, 41, 58);
+  color: white;
+  padding: 0px 20px;
+  box-shadow: 0px 1px 2px gray;
+  width: 100%;
+  
+  padding: 15px;
+  height: 100px;
+}
+
+nav li {
+  list-style: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.Button {
+  color:rgb(239, 196, 88) !important;
+  background: none;
+  border-radius: 15px;
+  border: 1px solid; 
+}
+
+/*.card {
+  width: 400px;
+  padding: 10px;
+  box-shadow: rgb(180, 165, 165)!important;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #94a7c8;
+  border-radius: 4px;
+}*/
+
+.ProjectCard h3::after {
+  content: url("https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/icon-expand.png");
+  margin-left: 5px;
+}
+.btndetails,
+.loginBtn {
+  border-radius: 15px !important;
+}
+.btndetails{
+  background-color:#8B9179;
+}
+
+.EditProjectPage,
+.AddProject,
+.AddTask {
+  background:rgb(180, 165, 165) !important;
+  border: 1px solid rgb(180, 165, 165) !important;
+  box-shadow: 0px 2px 3px;
+  width: 300px !important;
+  
+  height: auto;
+  text-align: center;
+
+ margin-left:auto;
+ margin-right: auto;
+margin-top: 50px;
+
+ 
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px !important;
+}
+
+.EditProjectPage {
+  background-color: rgb(239, 196, 88);
+}
+
+.SignupPage,
+.LoginPage {
+  background-color: #8B9179 !important;
+  border-radius: 20px;
+}
+
+.LoginPage {
+  background-color: #8B9179 !important;
+}
+
+.EditProjectPage form,
+.AddTask form,
+.AddProject form,
+.SignupPage form,
+.LoginPage form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AddTask button,
+.AddProject button {
+  display: block;
+}
+
+
+.kill {
+  align-items:center;
+  font-family: 'Montserrat', sans-serif;
+}
+.Reviews {
+  align-items:center;
+  font-family: 'Montserrat', sans-serif;
+}
+.Navbar {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-img-wrapper {
+  width: 50px;
+}
+
+.profile-img {
+  width: 35px;
+  border-radius: 35px;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.landingPagediv  {
+  
+  background: url("./fjafkjafka.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  width:100vw;
+  background-size: cover;
+}
+ 
+/*style formulários*/
+.SignupPage,
+
+.LoginPage {
+  background:rgb(180, 165, 165) !important;
+  border: 1px solid rgb(180, 165, 165) !important;
+  box-shadow: 0px 2px 3px;
+  width: 400px !important;
+  
+  height: auto;
+  text-align: center;
+
+ margin-left:auto;
+ margin-right: auto;
+margin-top: 50px;
+
+ 
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 80px !important;
+}
+.formulario {
+
+  background-color:beige;
+  width:550px;
+}
+.search-input {
+  height: 35px;
+  text-indent: 33px;
+  border-radius: 10px
+}

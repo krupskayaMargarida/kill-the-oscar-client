@@ -1,0 +1,25 @@
+body{
+    background-color:#8B9179;
+
+
+
+}
+
+.movie-card{
+  background-color:grey;
+  box-shadow: #c2d4dd;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: 30%;
+  margin-bottom: 10%;
+  padding:1px;
+ 
+}
+.primary{
+    width: 5em;
+}
